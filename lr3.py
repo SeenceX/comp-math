@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 X, T = 1, 1
-m, n = 10, 250
+m, n = 10, 80
 N = 6
 h = X / m
 t = T / n
@@ -38,5 +38,5 @@ for i in range(int(m)):
 plt.plot(x, y, '-*')
 plt.xlabel('x')
 plt.ylabel('U(x, t=0.2)')
-plt.title('График функции U(x, t=0.2)')
+plt.title(f'График функции U(x, t=0.2) при m={n}, m={m}')
 plt.show()
