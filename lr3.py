@@ -38,5 +38,5 @@ for i in range(int(m)):
 plt.plot(x, y, '-*')
 plt.xlabel('x')
 plt.ylabel('U(x, t=0.2)')
-plt.title(f'График функции U(x, t=0.2) при m={n}, m={m}')
+plt.title(f'График функции U(x, t=0.2) при m={m}, m={n}')
 plt.show()
